@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.font-geologica {
+    font-family: "Geologica", serif;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.list-job {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(500px));
+    grid-gap: 10px;
+}
