@@ -15,18 +15,18 @@ const Footer = () => {
                     </i>
                     JOB Dheko
                 </Link>
-                <p>Coded by Prathamesh Rathi</p>
+                <p>Coded by Team Tech Dreamers</p>
             </div>
             <div>
                 <span className=" text-lg font-semibold">Social</span>
                 <div className="grid grid-flow-col gap-4">
-                    <Link to="https://www.linkedin.com/in/prathamesh-rathi-0b3930205/">
+                    <Link to="#">
                         <FaTwitter className="text-2xl hover:text-secondary" />
                     </Link>
-                    <Link to="https://github.com/Prathamesh-Rathi">
+                    <Link to="https://github.com/whyweexist">
                         <FaGithub className="text-2xl hover:text-secondary" />
                     </Link>
-                    <Link to="https://github.com/Prathamesh-Rathi">
+                    <Link to="https://github.com/whyweexist">
                         <FaGitlab className="text-2xl hover:text-secondary" />
                     </Link>
                 </div>
